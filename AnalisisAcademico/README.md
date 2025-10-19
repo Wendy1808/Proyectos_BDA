@@ -20,5 +20,5 @@ Resultados Academico:
 Ficheros:
 AnalisisAcademico.pdf
 
-xxxxx
 Relaciones:
+AnalisisAcademico.jpeg
