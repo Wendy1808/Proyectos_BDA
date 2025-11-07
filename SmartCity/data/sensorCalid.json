@@ -1,0 +1,20 @@
+{
+    "id": "SensorCalidad1",
+    "type": "SensorCalidadAgua",
+    "dateObserved": {
+        "type": "DateTime",
+        "value": "2025-07-30T18:00:00-05:00"
+    },
+    "ph": {
+        "type": "Number",
+        "value": 80
+    },
+    "temperature": {
+        "type": "Number",
+        "value": 24
+    },
+    "cloro": {
+        "type": "Number",
+        "value": 10
+    }
+}

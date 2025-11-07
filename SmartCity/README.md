@@ -1,3 +1,6 @@
 # SmartCity
+
 Proyecto Big Data
-3 archivos json
+Carpeta de datos
+Práctica 2
+Script

@@ -1,0 +1,45 @@
+{
+    "description": "Subscription para registrar histórico de CO2, Calidad de Agua y Temperatura/Humedad",
+    "subject": {
+        "entities": [
+            {
+                "idPattern": ".*",
+                "type": "SensorCO2"
+            },
+            {
+                "idPattern": ".*",
+                "type": "SensorCalidadAgua"
+            },
+            {
+                "idPattern": ".*",
+                "type": "SensorTempHum"
+            }
+        ],
+        "condition": {
+            "attrs": [
+                "CO2",
+                "ph",
+                "temperature",
+                "cloro",
+                "humedad"
+            ]
+        }
+    },
+    "notification": {
+        "attrs": [
+            "dateObserved",
+            "CO2",
+            "ph",
+            "temperature",
+            "cloro",
+            "humedad"
+        ],
+        "metadata": [
+            "dateCreated",
+            "dateModified"
+        ],
+        "http": {
+            "url": "http://quantumleap:8668/v2/notify"
+        }
+    }
+}
